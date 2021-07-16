@@ -1,10 +1,25 @@
 body { 
-    background: url(blue.jpg) no-repeat center center fixed; 
+    background: url(brick.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
   }
  .container{
-     margin: 100px;
+     margin: 1vw;
+     color: blanchedalmond;
+     font-family: 'Source Code Pro', monospace;
+     font-size: 3vw;
+     text-align-last: center;
+
  }
+ #col1{
+     margin-top: 5%;
+ }
+ #col2{
+    margin-top: 10%;
+}
+#col3{
+    margin-top: 50%;
+}
