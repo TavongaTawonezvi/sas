@@ -11,7 +11,7 @@ function showcol3(){
 }
 setTimeout("showcol1()", 2000);
 setTimeout("showcol2()", 3000);
-setTimeout("showcol3()", 4800);
+setTimeout("showcol3()", 4200);
 
 // hide all divs
 function hideDivs(){

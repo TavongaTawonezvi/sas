@@ -14,13 +14,7 @@ canvas {
   }
 
 
-/*body { 
-    background: url(brick.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
+
  .container{
      margin: 1vw;
      color: blanchedalmond;
@@ -37,11 +31,8 @@ canvas {
     text-align-last: center;
 }
 #col3{
-<<<<<<< HEAD
-    margin-top: 50%;
-}*/
-=======
+
     margin-top: 55%;
     text-align: right;
 }
->>>>>>> 730aed57259357523a3e1a4554ef1f6853d338e2
+
