@@ -20,22 +20,28 @@ canvas {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
   }
  .container{
      margin: 1vw;
      color: blanchedalmond;
      font-family: 'Source Code Pro', monospace;
      font-size: 3vw;
-     text-align-last: center;
 
  }
  #col1{
      margin-top: 5%;
+     text-align: left;
  }
  #col2{
     margin-top: 10%;
+    text-align-last: center;
 }
 #col3{
+<<<<<<< HEAD
     margin-top: 50%;
 }*/
+=======
+    margin-top: 55%;
+    text-align: right;
+}
+>>>>>>> 730aed57259357523a3e1a4554ef1f6853d338e2
