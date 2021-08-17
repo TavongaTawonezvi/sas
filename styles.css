@@ -1,4 +1,20 @@
-body { 
+
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background: black;
+    overflow: hidden;
+}
+canvas {
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: -1;
+  }
+
+
+/*body { 
     background: url(brick.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -22,4 +38,4 @@ body {
 }
 #col3{
     margin-top: 50%;
-}
+}*/
