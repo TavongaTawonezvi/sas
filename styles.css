@@ -17,10 +17,9 @@ canvas {
 
  .container{
      margin: 5vw;
-     color: navy;
+     color: black;
      font-family:'Lato', sans-serif;
      font-size: 6vw;
-     font-weight: 500;
 
  }
  /*#row1{

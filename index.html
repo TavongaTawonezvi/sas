@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styles.css" class="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">   
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -87,13 +87,14 @@
         p.y -= p.velocity;
         
         if (p.y < -200) {
-          p.y = 200;        //makes nice ending effect when changed to 2000
+          p.y = 200;        //creates finale effect at 2000
           p.velocity = 0;
         }
         });
 
          stickGeo.verticesNeedUpdate = true;
-          figures.rotation.y += 0.002;
+          figures.rotation.y += 0.002;   
+          figures.rotation.x +=0.007;    //-
           renderer.render(scene, camera);
           requestAnimationFrame(animate);
         }
@@ -133,7 +134,7 @@
           changeRow2()
         }, 11600);
 
-        setTimeout("showrow2()", 14500);
+        setTimeout("showrow2()", 16500);
 
       
       </script>
