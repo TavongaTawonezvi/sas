@@ -17,7 +17,7 @@
 <body>
   <div class="container d-flex h-100">
     <div class="col justify-content-center align-self-center">
-      <div class="row justify-content-center"; id="row1"; style="visibility: hidden;">
+      <div class="row justify-content-center"; id="row1"; style="visibility: visible;">
        You can make a difference     
       </div>
        <div class="row justify-content-center"; id="row2"; style="visibility: hidden;">
@@ -56,7 +56,7 @@
             stickGeo.vertices.push(figure);
           }
 
-          let sprite = new THREE.TextureLoader().load('figure.png');
+          let sprite = new THREE.TextureLoader().load('figure4.0.png');
           let figureMaterial = new THREE.PointsMaterial({
             color: 0xaaaaaa,
             size : 10,
@@ -114,17 +114,17 @@
         }
         setTimeout("showrow1()", 2000);
         setTimeout("showrow2()", 3000);
-        setTimeout("showrow3()", 4200);
+        setTimeout("showrow3()", 5000);
         
         setTimeout(() => {
-          init()
+          init()              // or init at 5
         }, 7500);
 
         function hideDivs(){
           row1Id.style.visibility="hidden";
           row2Id.style.visibility="hidden";
           row3Id.style.visibility="hidden";
-        }setTimeout("hideDivs()", 10500);
+        }setTimeout("hideDivs()", 8500);
          
        function changeRow2(){
         row2Id.innerHTML = '[WIT]';     
@@ -132,9 +132,9 @@
         }
        setTimeout(() => {
           changeRow2()
-        }, 11600);
+        }, 8600);
 
-        setTimeout("showrow2()", 16500);
+        setTimeout("showrow2()", 10000);
 
       
       </script>
